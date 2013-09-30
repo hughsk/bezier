@@ -1,7 +1,7 @@
 {
   "name": "bezier",
   "description": "n-degree Bezier interpolation",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "browser": "index.js",
   "dependencies": {
