@@ -1,5 +1,8 @@
 var choose = require('choose')
-var cache = {}
+var cache = {
+  '1': first,
+  '2': second
+}
 
 module.exports = bezier
 
@@ -44,4 +47,12 @@ function power(key, n) {
   if (n === 4) return [key, key, key, key].join('*')
   if (n === 5) return [key, key, key, key, key].join('*')
   return 'Math.pow('+key+','+n+')'
+}
+
+function first(arr) {
+  return arr[0]
+}
+
+function second(arr, t) {
+  return arr[0] + (arr[1] - arr[0]) * t
 }
