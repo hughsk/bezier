@@ -1,0 +1,26 @@
+{
+  "name": "bezier",
+  "description": "n-degree Bezier interpolation",
+  "version": "0.0.0",
+  "main": "index.js",
+  "browser": "index.js",
+  "dependencies": {
+    "choose": "0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://github.com/hughsk)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/bezier"
+  },
+  "bugs": {
+    "url": "https://github.com/hughsk/bezier/issues"
+  },
+  "keywords": [
+    "bezier",
+    "curve",
+    "spline"
+  ]
+}
