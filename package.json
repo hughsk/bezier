@@ -4,11 +4,13 @@
   "version": "0.0.1",
   "main": "index.js",
   "browser": "index.js",
-  "dependencies": {
-    "choose": "0.0.0"
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~1.1.1"
   },
-  "devDependencies": {},
-  "scripts": {},
+  "scripts": {
+    "test": "node test.js"
+  },
   "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://github.com/hughsk)",
   "license": "MIT",
   "repository": {
