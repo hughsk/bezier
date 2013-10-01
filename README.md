@@ -26,8 +26,8 @@ var canvas = document.createElement('canvas')
 var ctx = canvas.getContext('2d')
 
 var bezier = require('bezier')
-var x = [0, 1, 2]
-var y = [2, 1, 0]
+var x = [0, 100, 200]
+var y = [200, 100, 0]
 
 ctx.beginPath()
 ctx.strokeStyle = '#000'
