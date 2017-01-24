@@ -1,4 +1,4 @@
-# bezier [![experimental](http://hughsk.github.io/stability-badges/dist/experimental.svg)](http://github.com/hughsk/stability-badges) #
+# bezier
 
 n-degree Bezier curve interpolation.
 
